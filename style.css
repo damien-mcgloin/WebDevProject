@@ -1,0 +1,257 @@
+html {
+  transition: smooth;
+}
+
+/* Index Page */
+/* Navigation bar section */
+
+.navbar-background {
+  background-color: black;
+  height: auto;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 35px;
+  padding-bottom: 10px;
+  position:relative;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-item {
+  display:inline-block;
+  font-size: 1rem;
+  margin: auto;
+}
+
+.navbar-menu {
+  margin-top: 5px;
+}
+
+.nav-link {
+  color: white;
+  padding: auto;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.navbar-assist {
+  color: white;
+  margin: 15px 80px;
+  padding-left: 4rem;
+}
+
+.navbar-assist:hover {
+  color: gray;
+}
+
+.nav-search {
+  color: white;
+  display:inline-block;
+  margin-bottom: 5px;
+  padding-right: 20px;
+  position: relative;
+
+}
+
+.nav-search:hover {
+  color: grey;
+}
+
+.title-image {
+  padding-bottom: 5px;
+}
+
+/* Highlights Section */
+
+.highlights-background {
+  background-color: #28527a;
+  height: 70px;
+  padding-top: 10px;
+}
+
+.highlights-text {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  margin: auto auto 0 auto;
+}
+
+.carousel-price {
+  background-color: black;
+  border-radius: 25px;
+  margin: 20px auto;
+  width: 250px;
+}
+
+.carousel-button {
+  margin: 15px 10px;
+}
+
+.highlights-bottom-background {
+  background-color: #28527a;
+  height: 70px;
+}
+
+/* Featured Section */
+
+.featured-background {
+  background-color: #8ac4d0;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.featured-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  margin: auto auto 0 auto;
+}
+
+.card {
+  border-radius: 15px;
+  margin: 15px auto;
+}
+
+.card-price {
+  margin-right: 0.2rem;
+}
+
+.card-picture {
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.card-button {
+  margin-left: 5px;
+}
+
+/* Footer Section */
+
+.footer-text {
+  padding-left: 90px;
+}
+
+.footer-background {
+  background-color: black;
+  height: auto;
+}
+
+.copyright-text {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.social-icon {
+  color: white;
+  height: 30px;
+  margin: 20px 10px;
+  width: 30px;
+}
+
+.social-icon:hover {
+  color: gray;
+}
+
+/* Support Page */
+/* Issues Section */
+
+.issues-background {
+  background-color: #28527a;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  height: auto;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.support-games {
+  height: auto;
+  width: 800px;
+}
+
+.welcome-msg {
+  font-family: 'Allerta Stencil', sans-serif;
+  padding-top: 2rem;
+  text-decoration:underline;
+}
+
+.welcome-background {
+  background-color: black;
+  border-radius: 15px;
+  height: 130px;
+  margin: 50px auto 50px;
+  width: auto;
+}
+
+.notice-text {
+  font-size: 0.9rem;
+}
+
+.notice-text-color {
+  color: #D9BB5F;
+  font-size: 1rem;
+}
+
+.help-icon {
+  color: #D9BB5F;
+  margin: 10px auto;
+}
+
+.help-icon:hover {
+  color: white;
+}
+
+.help-text {
+  color: white;
+}
+
+/* Assistance Section */
+
+.assistance-background {
+  background-color: #8ac4d0;
+  color: black;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.tablet-icon {
+  color: white;
+}
+
+.gameissues-hr {
+  color: gray;
+}
+
+.general-advice {
+  text-decoration:underline;
+}
+
+.issues-section-end {
+  margin-bottom: 0rem;
+}
+
+@media (max-width: 1200px) {
+
+  .card-text {
+    display: none;
+  }
+
+  .navbar-assist {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+}
