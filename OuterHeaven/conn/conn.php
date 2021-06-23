@@ -1,11 +1,11 @@
 <?php
-    $passw = "CNcLCtCbrbmQmD9q";
+    $passw = "";
         
-    $username = "dmcgloin01";
+    $username = "";
 
-    $db = "dmcgloin01";
+    $db = "";
 
-    $host = "dmcgloin01.lampt.eeecs.qub.ac.uk";
+    $host = "";
 
     $conn = new mysqli($host, $username, $passw, $db);
 
